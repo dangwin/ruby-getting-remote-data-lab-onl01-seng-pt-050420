@@ -1,4 +1,5 @@
-require 'pry'
+require 'open-uri'
+
 class GetRequester
   
   attr_reader :url
