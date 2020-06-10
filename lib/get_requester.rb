@@ -1,4 +1,5 @@
 require 'open-uri'
+require 
 
 class GetRequester
   
@@ -11,7 +12,7 @@ class GetRequester
   
   def get_response_body
     uri = URI.parse(url)
-binding.pry
+
   end 
 end 
     
