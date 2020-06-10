@@ -20,6 +20,6 @@ class GetRequester
     uri = URI.parse(url)
     response = Net::HTTP.get_response_body(uri)
     response.body
-  
+  end 
 end 
     
