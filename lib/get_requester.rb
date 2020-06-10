@@ -1,4 +1,4 @@
-
+require 'pry'
 class GetRequester
   
   attr_reader :url
@@ -10,7 +10,7 @@ class GetRequester
   
   def get_response_body
     uri = URI.parse(url)
-
+binding.pry
   end 
 end 
     
